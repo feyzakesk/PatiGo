@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_bar_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.project.patigo.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.project.patigo.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/petFragment"
+        android:name="com.project.patigo.ui.fragments.PetFragment"
+        android:label="fragment_pet"
+        tools:layout="@layout/fragment_pet" >
+        <action
+            android:id="@+id/action_petFragment_to_insertPetFragment"
+            app:destination="@id/insertPetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertPetFragment"
+        android:name="com.project.patigo.ui.fragments.InsertPetFragment"
+        android:label="fragment_insert_pet"
+        tools:layout="@layout/fragment_insert_pet" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.project.patigo.ui.fragments.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="carer"
+            app:argType="com.project.patigo.data.entity.Carer" />
+        <action
+            android:id="@+id/action_detailFragment_to_confirmedFragment"
+            app:destination="@id/confirmedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmedFragment"
+        android:name="com.project.patigo.ui.fragments.ConfirmedFragment"
+        android:label="fragment_confirmed"
+        tools:layout="@layout/fragment_confirmed" >
+        <argument
+            android:name="petArg"
+            app:argType="com.project.patigo.data.entity.Pet" />
+        <argument
+            android:name="carerArg"
+            app:argType="com.project.patigo.data.entity.Carer" />
+        <action
+            android:id="@+id/action_confirmedFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/profileFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

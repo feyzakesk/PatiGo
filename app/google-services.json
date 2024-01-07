@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132794565018",
+    "project_id": "patigo-66cf7",
+    "storage_bucket": "patigo-66cf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132794565018:android:4a706817c464f85871ba23",
+        "android_client_info": {
+          "package_name": "com.project.patigo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo2f5e75qh7rcr7eS4VW3STf4KDWBWOS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="istanbul_districts_array">
+        <item>Adalar</item>
+        <item>Arnavutköy</item>
+        <item>Ataşehir</item>
+        <item>Avcılar</item>
+        <item>Bahçelievler</item>
+        <item>Bakırköy</item>
+        <item>Bayrampaşa</item>
+        <item>Beşiktaş</item>
+        <item>Beykoz</item>
+        <item>Beylikdüzü</item>
+        <item>Beyoğlu</item>
+        <item>Büyükçekmece</item>
+        <item>Çatalca</item>
+        <item>Çekmeköy</item>
+    </string-array>
+
+    <string-array name="star_array">
+        <item>3.4</item>
+        <item>3.3</item>
+        <item>4.7</item>
+        <item>4.0</item>
+        <item>3.9</item>
+        <item>2.8</item>
+        <item>3.1</item>
+        <item>3.5</item>
+        <item>3.8</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>4.9</item>
+        <item>5.0</item>
+        <item>3.6</item>
+    </string-array>
+
+    <string-array name="yemek_description">
+        <item>3.4</item>
+        <item>3.3</item>
+        <item>4.7</item>
+        <item>4.0</item>
+        <item>3.9</item>
+        <item>2.8</item>
+        <item>3.1</item>
+        <item>3.5</item>
+        <item>3.8</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>4.9</item>
+        <item>5.0</item>
+        <item>3.6</item>
+    </string-array>
+</resources>

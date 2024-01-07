@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    android:backgroundTint="@color/white"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/infoDescription"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="@color/black"
+            android:text="Seçmiş olduğunuz evcil hayvanı kaldırmak istediğinize emin misiniz?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:src="@drawable/outline_info_24"
+            android:layout_width="75dp"
+            android:layout_height="75dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/negativeButton"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="İptal"
+                android:backgroundTint="@color/borderTextShadowColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="0dp" />
+            <Button
+                android:id="@+id/positiveButton"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="Onayla"
+                android:backgroundTint="@color/primaryColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

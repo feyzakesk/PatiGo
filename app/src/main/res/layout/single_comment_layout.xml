@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/commentName"
+            android:text="Feyza Keskin"
+            android:textSize="18sp"
+            android:textColor="@color/primaryColor"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/commentDate"
+            android:text="18.12.2023"
+            android:textSize="14sp"
+            android:textColor="@color/descriptionTextColor"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <View
+            android:layout_width="24dp"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/commentRate"
+            android:text="3.5"
+            android:textSize="16sp"
+            android:textColor="@color/descriptionTextColor"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:drawableLeftCompat="@drawable/round_star_rate_24">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/commentContent"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        android:textSize="14sp"
+        android:textColor="@color/titleTextColor"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/descriptionTextColor" />
+
+</LinearLayout>
